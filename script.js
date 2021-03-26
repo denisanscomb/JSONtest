@@ -1,2 +1,6 @@
-let d = new Date();
+
+
+var d = new Date();
 document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+
+
