@@ -1,5 +1,3 @@
-
-
 var d = {
           "firstName: "John",
           "lastName: "Smith"
