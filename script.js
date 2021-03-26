@@ -1,9 +1,6 @@
-var d = {
-          "firstName: "John",
-          "lastName: "Smith"
-};
+var d = new Data();
 
-document.body.innerHTML = "<h1>fingers crossed " + d.firstName + "</h1>";
+document.body.innerHTML = "<h1>fingers crossed " + d + "</h1>";
 
 // does this work?
 
