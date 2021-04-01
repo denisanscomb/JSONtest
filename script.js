@@ -1,10 +1,17 @@
-let b = {
-          "firstName: "John",
-          "lastName: "Smith"
-};
-        document.body.innerHTML = "<h1>Is it keeping the old variable?" + b " does it read through?</h1>";
- 
-
-// does changing this update things?
-
-
+let companies = 
+`[
+{
+  "name": "Big Corporation",
+  "nameOfEmployees": 10000,
+  "ceo": "Mary",
+  "rating": 3.6
+},
+{
+  "name": "Small Startup",
+  "nameOfEmployees": 3,
+  "ceo": null,
+  "rating": 4.3
+}
+]`
+//console.log(JSON.parse(companies)[1].rating)
+console.log(companies)
