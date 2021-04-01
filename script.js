@@ -13,5 +13,5 @@ let companies =
   "rating": 4.3
 }
 ]`
-//console.log(JSON.parse(companies)[1].rating)
-console.log(companies)
+console.log(JSON.parse(companies)[1].rating)
+//console.log(companies)
